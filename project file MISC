@@ -1,0 +1,8 @@
+print('Your computer will now shutdown in {}'.format(time_left))
+- time.sleep(time_left)
+- os.system('sudo shutdown now')
+-
+-
+-
+-if __name__ == '__main__':
+- main()
